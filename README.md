@@ -1,2 +1,6 @@
 # MidTermOsmanCanISKIT
-My Midterm Exam
+Midterm Exam 
+First Commit of Edited README.md
+
+
+
