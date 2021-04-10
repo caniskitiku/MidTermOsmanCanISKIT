@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php require "Automobile.php"?>
-<form action="index.php" method="post">
+<form action="out.php" method="post">
 <input type="text" placeholder="Licence Plate" name="licence">
 <input type="text" placeholder="Brand" name="brand">
 <input type="text" placeholder="Model" name="model">
@@ -17,9 +17,7 @@
 <input type="submit" name ="Send">
 
 </form>
-<?php if ($_POST!= NULL) {
- $auto = new Automobile($_POST["licence"],$_POST["brand"],$_POST["model"],$_POST["modelYear"],$_POST["color"]);
- echo $auto;}?>
+
 
 
 </body>
